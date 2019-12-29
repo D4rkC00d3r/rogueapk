@@ -45,12 +45,12 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View view) {
-                Toast.makeText(getApplicationContext(), "Scanning for rouge apps.", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), "Scanning for rogue apps.", Toast.LENGTH_SHORT).show();
 
                 try {
-                    // Looks for the text file containing all the package names exposed as rouge apk's.
+                    // Looks for the text file containing all the package names exposed as rogue apk's.
                     @SuppressLint("WorldReadableFiles") InputStream fIn = getApplicationContext().getResources().getAssets()
-                            .open("rougeapk.txt", MODE_WORLD_READABLE);
+                            .open("rogueapk.txt", MODE_WORLD_READABLE);
 
                     BufferedReader input = new BufferedReader(new InputStreamReader(fIn));
                     String line;
@@ -79,11 +79,11 @@ public class MainActivity extends AppCompatActivity {
             List<ResolveInfo> list = packageManager.queryIntentActivities(intent, PackageManager.MATCH_DEFAULT_ONLY);
             Toast.makeText(context, "Found: " + packageName, Toast.LENGTH_LONG).show();
 
-            ArrayList rougeapps = new ArrayList();
-            rougeapps.add(packageName);
+            ArrayList rogueapps = new ArrayList();
+            rogueapps.add(packageName);
 
-            for (int i = 0; i < rougeapps.size(); i++) {
-                final String uninstallapp = (String) rougeapps.get(i);
+            for (int i = 0; i < rogueapps.size(); i++) {
+                final String uninstallapp = (String) rogueapps.get(i);
                 Log.d("(Debug)", "Uninstall this --- " + uninstallapp);
 
                 AlertDialog alertDialog = new AlertDialog.Builder(MainActivity.this).create();
