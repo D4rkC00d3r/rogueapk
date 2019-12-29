@@ -16,7 +16,7 @@ I have included a signed apk in the releases folder if you wish to sideload it.
 
 ## Built With
 
-* [Android Studio](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
+* [Android Studio](https://developer.android.com/studio) - IDE Used.
 
 ## Authors
 
