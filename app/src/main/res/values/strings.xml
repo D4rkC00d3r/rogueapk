@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">RogueAPK</string>
+    <string name="the_apps_are_cleverly_disguised_to_look_normal_and_pose_as_games_prank_apps_code_scanners_and_photo_editors">The apps are cleverly disguised to look normal, and pose as games, prank apps, code scanners and photo editors.</string>
+    <string name="these_apps_quietly_operate_a_type_of_scam_known_as_ad_fraud_according_to_cyber_experts_below_is_an_example_of_the_malicious_code">These apps quietly operate a type of scam known as ad fraud, according to cyber-experts, below is an example of the malicious code.</string>
+    <string name="but_they_all_contain_a_hidden_secret_dodgy_hacker_code_that_s_been_branded_soraka_by_security_experts">But they all contain a hidden secret: dodgy hacker code that\'s been branded \'Soraka\' by security experts.</string>
+    <string name="rogue_android_apps_hijack_your_phone_and_kill_your_battery_life_uninstall_these_offenders_now">Rogue Android apps hijack your phone and kill your battery life uninstall these offenders now</string>
+    <string name="press_the_search_button_to_scan_your_device_a_popup_message_will_be_shown_if_anything_is_found">Press the search button to scan your device. A popup message will be shown if anything is found.</string>
+    <string name="todo">TODO</string>
+
+
+    <string name="applink">Read original news article by Sean Keach?
+    <a href="https://www.thesun.co.uk/tech/10624784/android-apps-battery-life-ad-fraud-delete-scam-hacked/">Get it here</a>
+    </string>
+</resources>
