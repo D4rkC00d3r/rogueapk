@@ -28,7 +28,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* This app was made as a result of reading an news artical by Sean Keach titled;
+* This app was made as a result of reading a news artical by Sean Keach titled;
 
 [DELETE THEM NOW Rogue Android apps hijack your phone and kill your battery life – uninstall these 104 offenders now](https://www.thesun.co.uk/tech/10624784/android-apps-battery-life-ad-fraud-delete-scam-hacked/)
 
