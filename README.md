@@ -1,6 +1,6 @@
 # Rogue APK
 
-Rogue APK is an Android app that looks for over 100 install apps that have been know to contain malicious code. The apps are cleverly disguised to look normal, and pose as games, prank apps, code scanners and photo editors. 
+Rogue APK is an Android app that looks for over 100 installed apps that have been know to contain malicious code. The apps are cleverly disguised to look normal, and pose as games, prank apps, code scanners and photo editors. 
 
 But they all contain a hidden secret: dodgy hacker code that's been branded 'Soraka' by security experts.
 
